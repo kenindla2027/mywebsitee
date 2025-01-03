@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio - [Keni Nadila]</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      /* Custom Styles */
+      body {
+        font-family: "Raleway", sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+        margin-top: 50px;
+      }
+
+      h1,
+      h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+      }
+
+      header {
+        background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+        color: white;
+        padding: 80px 0;
+        text-align: center;
+        border-bottom: 3px solid #ddd;
+      }
+
+      .navbar {
+        background-color: #333;
+      }
+
+      .navbar-brand,
+      .nav-link {
+        color: white !important;
+      }
+
+      .nav-link:hover {
+        color: #2575fc !important;
+        text-decoration: none;
+      }
+
+      .btn-primary {
+        background-color: #2575fc;
+        border-color: #2575fc;
+        padding: 10px 30px;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+      }
+
+      .btn-primary:hover {
+        background-color: #6a11cb;
+        border-color: #6a11cb;
+      }
+
+      .section {
+        padding: 60px 0;
+        transition: all 0.5s ease;
+      }
+
+      .section:nth-child(even) {
+        background-color: #f0f0f0;
+      }
+
+      .section h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+      }
+
+      .card {
+        border: none;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer a {
+        color: #2575fc;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">[Keni Nadila]</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Contoh Karya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Hubungi Saya</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <h1>Portfolio - [Keni Nadila]</h1>
+        <p class="lead">Penulis Konten Berkualitas & Kreatif</p>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya adalah seorang penulis yang antusias dan berdedikasi untuk menghasilkan konten berkualitas tinggi...</p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Layanan yang Saya Tawarkan</h2>
+        <ul>
+          <li><strong>Artikel dan Blog Post:</strong> Penulisan artikel informatif, edukatif, atau hiburan yang SEO-friendly.</li>
+          <li><strong>Cerpen dan Novel:</strong> Pembuatan cerita pendek hingga novel dengan alur yang menarik.</li>
+          <li><strong>Copywriting:</strong> Konten pemasaran, slogan, dan deskripsi produk yang kreatif.</li>
+          <li><strong>Technical Writing:</strong> Panduan, tutorial, dan dokumen teknis.</li>
+          <li><strong>Pengeditan dan Proofreading:</strong> Revisi dan penyempurnaan teks untuk memastikan tata bahasa dan gaya penulisan yang sempurna.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works" class="section">
+      <div class="container">
+        <h2>Contoh Karya</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Artikel: 5 Langkah Efektif Meningkatkan Produktivitas</h5>
+                <p class="card-text">"Artikel ini membahas lima strategi utama untuk meningkatkan produktivitas di dunia digital yang sibuk dan penuh tantangan."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Cerpen: Kisah Seorang Remaja di Persimpangan Jalan</h5>
+                <p class="card-text">"Cerpen ini menceritakan kisah seorang remaja yang harus menghadapi pilihan sulit dalam hidup dan menemukan kekuatan dari dalam dirinya."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Copywriting: Produk Kecantikan untuk Setiap Hari</h5>
+                <p class="card-text">"Copy ini dibuat untuk mempromosikan produk kecantikan yang memberikan rasa percaya diri dengan sentuhan alami dan kualitas premium."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Hubungi Saya</h2>
+        <p>
+          Ingin bekerja sama? Jangan ragu untuk menghubungi saya melalui email di <a href="mailto:keninadila906@gmail.com">keninadila906@gmail.com</a> atau kunjungi Instagram saya di
+          <a href="https://kenindla2027.github.io/mykeni/" target="_blank">[https://kenindla2027.github.io/mykeni/]</a>.
+        </p>
+        <a href="mailto:keninadila906@gmail.com" class="btn btn-primary">Hubungi Saya</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 [Keni Nadila]. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
